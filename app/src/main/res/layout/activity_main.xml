@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp40"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ed_word"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="apple"
+                android:inputType="text" />
+
+            <Button
+                android:id="@+id/btn_zh_cn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="汉语转英文" />
+
+            <Button
+                android:id="@+id/btn_en_zh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="英语转汉语" />
+
+            <Button
+                android:id="@+id/btn_rxjava"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RxJava 英语转汉语" />
+
+            <TextView
+                android:id="@+id/tv_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="20"
+                android:text="Hello RxJava+RxAndroid"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+
+
+
+    <include layout="@layout/include_title" />
+</RelativeLayout>

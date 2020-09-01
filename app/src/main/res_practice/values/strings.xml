@@ -1,0 +1,9 @@
+<resources>
+   
+    <string name="ip_tip"><font size="13">请输入学号，1232719312071xx </font></string>
+    <string name="ip_tip_api_login"><font size="13">请输入IP地址，如https://api.nlecloud.com/</font></string>
+    <string name="project_tip"><font size="13">请输入项目标识</font></string>
+    <string name="username_tip"><font size="13">请输入用户名</font></string>
+    <string name="ids_tip"><font size="13">请输入学号</font></string>
+
+</resources>
